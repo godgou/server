@@ -1,0 +1,29 @@
+b{cursor:pointer;}
+#content{background:#333333;color:#FF9900;width: 60%;height:300px;vertical-align:middle;padding: 5px;border:3px solid #436EEE;border-radius:5px;outline:none;}
+
+#debug{background:#333333;width:30%;height:300px;border:3px solid #436EEE;z-index:99;position:fixed;top:0px;right:5px;border-radius:5px;padding:5px;}
+.va{vertical-align:middle;}
+.box01{box-shadow:inset 0px -1px 10px #000000;}
+
+
+/* scrollbar */
+.allscro::-webkit-scrollbar-track
+{/*定义滚动条的轨道，内阴影及圆角*/
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+.allscro::-webkit-scrollbar
+{/*滚动条宽高及背景*/
+    width: 10px;
+	width: 10px;
+	background-color: rgba(0,0,0,0);
+}
+
+.allscro::-webkit-scrollbar-thumb
+{/*定义滑块，内阴影及圆角*/
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
